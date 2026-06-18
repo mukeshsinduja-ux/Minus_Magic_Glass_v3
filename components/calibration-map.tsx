@@ -319,7 +319,33 @@ export function CalibrationMap({
           className="animate-float hidden shrink-0 drop-shadow-xl sm:block"
         />
       </header>
+{/* Watch Learn Quiz Navigation */}
+<div className="relative z-10 flex justify-center my-4">
+  <div className="flex items-center gap-2 rounded-full bg-slate-900/80 p-2 border border-slate-700 shadow-xl">
 
+    <Button
+      variant="ghost"
+      className="rounded-full px-6 py-2 font-bold text-white hover:bg-blue-600"
+    >
+      🎥 Watch
+    </Button>
+
+    <Button
+      variant="ghost"
+      className="rounded-full px-6 py-2 font-bold text-white hover:bg-green-600"
+    >
+      📚 Learn
+    </Button>
+
+    <Button
+      variant="ghost"
+      className="rounded-full px-6 py-2 font-bold text-white hover:bg-purple-600"
+    >
+      🏆 Quiz
+    </Button>
+
+  </div>
+</div>
       <section className="relative z-10 mx-auto flex min-h-0 w-full max-w-none flex-1 flex-col items-center gap-2 sm:gap-3">
         <div className="relative flex min-h-0 w-full flex-1 items-stretch px-14 sm:px-16 md:px-20">
           <Button
