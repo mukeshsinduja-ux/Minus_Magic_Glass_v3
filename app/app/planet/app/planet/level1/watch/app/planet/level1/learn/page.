@@ -1,8 +1,0 @@
-export default function Level1Learn() {
-  return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-background text-center">
-      <h1 className="text-3xl font-bold">Level 1 - Learn</h1>
-      <p>Interactive tutorial goes here.</p>
-    </main>
-  )
-}
